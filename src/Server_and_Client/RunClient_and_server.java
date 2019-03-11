@@ -1,0 +1,23 @@
+package Server_and_Client;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.Timer;
+
+public class RunClient_and_server {
+	static Timer timer;
+	public static void main(String[] args){
+		timer = new Timer(100, al);
+		timer.start();
+		MultiThreadedServerA2 server =  new MultiThreadedServerA2();
+	}
+
+	static ActionListener al = new ActionListener() {
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			System.out.println("Running Client");
+			ClientA2 client = new ClientA2();
+			timer.stop();
+		}
+	};
+}
