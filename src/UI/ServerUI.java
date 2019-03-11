@@ -5,7 +5,14 @@ import java.awt.BorderLayout;
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
-
+/*
+ * Author:Francisca Masombo
+ * Course:SSD
+ * Student Number: 200700883
+ *
+ * This is the server GUI  
+ *  
+ */
 public class ServerUI {
 	// Text area for displaying contents
 	public JTextArea jta = new JTextArea();

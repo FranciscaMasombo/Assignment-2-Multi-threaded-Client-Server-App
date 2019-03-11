@@ -3,8 +3,8 @@
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="Server_and_Client.ClientA2" project="Assign2_FranciscaMasombo" 
     file="/Assign2_FranciscaMasombo/src/Server_and_Client/ClientA2.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="368" y="295"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    <position height="396" width="267" x="326" y="135"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -23,7 +23,7 @@
   <class id="3" language="java" name="Server_and_Client.MultiThreadedServerA2.ThreadClass" 
     project="Assign2_FranciscaMasombo" file="/Assign2_FranciscaMasombo/src/Server_and_Client/MultiThreadedServerA2.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="946" y="731"/>    
+    <position height="-1" width="-1" x="944" y="786"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -48,31 +48,30 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="Server_and_Client.RunApp" project="Assign2_FranciscaMasombo" 
-    file="/Assign2_FranciscaMasombo/src/Server_and_Client/RunApp.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="624" y="929"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <nesting id="7">    
+  <nesting id="6">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="3"/>  
   </nesting>  
-  <association id="8">    
+  <association id="7">    
     <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="9" name="serverUI"/>      
-      <multiplicity id="10" minimum="0" maximum="1"/>    
+      <attribute id="8" name="serverUI">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="9" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="11">    
+  <association id="10">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="12" name="clientUI"/>      
-      <multiplicity id="13" minimum="0" maximum="1"/>    
+      <attribute id="11" name="clientUI">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="12" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
